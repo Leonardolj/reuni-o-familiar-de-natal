@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ceia de Natal - Família Oliveira 🎄</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(180deg,#0d3b24,#14532d,#0d3b24);
+    color:white;
+    min-height:100vh;
+}
+
+header{
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-family:'Playfair Display',serif;
+    font-size:3rem;
+    color:#FFD700;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.1rem;
+    color:#f8f8f8;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    padding-bottom:50px;
+}
+
+.card{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:20px;
+    padding:22px;
+    backdrop-filter:blur(8px);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.card h2{
+    color:#FFD700;
+    margin-bottom:18px;
+    text-align:center;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 0;
+    border-bottom:1px dashed rgba(255,255,255,.15);
+}
+
+li:last-child{
+    border:none;
+}
+
+.nome{
+    font-weight:500;
+}
+
+.responsavel{
+    background:#b91c1c;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:.85rem;
+}
+
+.sem{
+    background:#6b7280;
+}
+
+.refrigerante{
+    width:90%;
+    max-width:700px;
+    margin:30px auto;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    color:#ddd;
+}
+
+.emoji{
+    font-size:1.2rem;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🎄 Ceia de Natal</h1>
+<p>Família Oliveira • Organização da Ceia</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🍰 Doces</h2>
+<ul>
+<li><span class="nome">Pavê de chocolate</span><span class="responsavel">Juliana</span></li>
+<li><span class="nome">Pavê de maracujá (Pote)</span><span class="responsavel">Pote</span></li>
+<li><span class="nome">Pudim</span><span class="responsavel">Gabi</span></li>
+<li><span class="nome">Bolo de cenoura</span><span class="responsavel">Vitória</span></li>
+<li><span class="nome">Torta de maracujá</span><span class="responsavel sem">A definir</span></li>
+<li><span class="nome">Banoffee</span><span class="responsavel sem">A definir</span></li>
+<li><span class="nome">Mousse de maracujá</span><span class="responsavel">Kiko</span></li>
+<li><span class="nome">Mousse de morango</span><span class="responsavel">Kiko</span></li>
+<li><span class="nome">Rabanada</span><span class="responsavel">Leo</span></li>
+<li><span class="nome">Panetone</span><span class="responsavel">Kiko</span></li>
+<li><span class="nome">Salada de frutas</span><span class="responsavel sem">A definir</span></li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🍇 Frutas</h2>
+<ul>
+<li><span class="nome">Uva</span><span class="responsavel">Leo</span></li>
+<li><span class="nome">Banana</span><span class="responsavel">Leo</span></li>
+<li><span class="nome">Morango</span><span class="responsavel">Leo</span></li>
+<li><span class="nome">Abacaxi</span><span class="responsavel">Leo</span></li>
+<li><span class="nome">Ameixa</span><span class="responsavel sem">A definir</span></li>
+<li><span class="nome">Maçã</span><span class="responsavel sem">A definir</span></li>
+<li><span class="nome">Melancia</span><span class="responsavel">Jonathan</span></li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🍖 Carnes</h2>
+<ul>
+<li><span class="nome">Chester</span><span class="responsavel">Leo</span></li>
+<li><span class="nome">Carne assada</span><span class="responsavel sem">A definir</span></li>
+<li><span class="nome">Costela assada</span><span class="responsavel">Kiko</span></li>
+<li><span class="nome">Frango assado</span><span class="responsavel">Pote</span></li>
+<li><span class="nome">Empadão</span><span class="responsavel">Gabi</span></li>
+<li><span class="nome">Empadão de camarão</span><span class="responsavel">Kiko</span></li>
+<li><span class="nome">Escondidinho de carne</span><span class="responsavel">Isabela</span></li>
+<li><span class="nome">Escondidinho de frango</span><span class="responsavel">Juliana</span></li>
+<li><span class="nome">Pernil assado</span><span class="responsavel">Vitória</span></li>
+<li><span class="nome">Salgados</span><span class="responsavel">Jonathan</span></li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🍚 Acompanhamentos</h2>
+<ul>
+<li><span class="nome">Arroz de forno</span><span class="responsavel sem">A definir</span></li>
+<li><span class="nome">Arroz cremoso</span><span class="responsavel sem">A definir</span></li>
+<li><span class="nome">Salpicão</span><span class="responsavel">Pote</span></li>
+<li><span class="nome">Macarronese</span><span class="responsavel sem">A definir</span></li>
+<li><span class="nome">Farofa</span><span class="responsavel">Vitória</span></li>
+<li><span class="nome">Pastel</span><span class="responsavel">Leo</span></li>
+</ul>
+</div>
+
+</div>
+
+<div class="card refrigerante">
+<h2>🥤 Engradados de Refrigerante</h2>
+
+<ul>
+<li><span class="nome">Jonathan</span><span class="emoji">🥤</span></li>
+<li><span class="nome">Juliana</span><span class="emoji">🥤</span></li>
+<li><span class="nome">Gabi</span><span class="emoji">🥤</span></li>
+<li><span class="nome">Leo</span><span class="emoji">🥤</span></li>
+</ul>
+
+</div>
+
+<footer>
+🎅 Que nossa ceia seja repleta de amor, união e alegria! ❤️
+</footer>
+
+</body>
+</html>
